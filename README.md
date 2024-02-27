@@ -439,7 +439,7 @@ memberships.
   ### <ins>Limitations</ins>
 
  - Data-privacy issues prohibit you from using riders’ personally identifiable information. This means that you won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
- - The dataset comprised only 13 months of data, which my be not thruthful for the entire population that should be considered.
+ - The dataset comprised only 13 months of data, which may be not thruthful for the entire population that should be considered.
 
   ### <ins>References</ins>
 
