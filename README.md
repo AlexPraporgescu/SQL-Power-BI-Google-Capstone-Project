@@ -17,11 +17,11 @@
 - [References](#references)
 - [Notes](#notes)
 
-  ### <ins>Project Overview</ins>
+  ## <ins>Project Overview</ins>
 
 ![image](https://github.com/AlexPraporgescu/SQL-Power-BI-Google-Capstone-Project/assets/158141333/7cc2205f-6f42-4a39-a439-7271150b21e9) ![image](https://github.com/AlexPraporgescu/SQL-Power-BI-Google-Capstone-Project/assets/158141333/c60c7780-e175-4374-9018-5929bada35f8)
 
-  ### <ins>Scenario</ins>
+  ## <ins>Scenario</ins>
 
 Cyclistic is a bike-share program that features a fleet of 5,824 bicycles that are geotracked and locked into a network of 692 stations across Chicago.
 The bikes can be unlocked from one station and returned to any other station in the system anytime.
@@ -30,12 +30,12 @@ Up to this point, Cyclistic’s marketing approach focused on raising public awa
 The price plans' flexibility, which included single-ride passes, full-day passes, and annual memberships, was one strategy that assisted in making these things possible.
 Casual riders are those who buy one-ride or all-day passes from the company. Cyclistic members are customers who purchase annual memberships.
 
-  ### <ins>Role</ins> 
+  ## <ins>Role</ins> 
 
 I am a junior data analyst working in the marketing analyst team at Cyclistic, tasked with designing a new marketing strategy to convert casual riders into annual members.
 For the project I followed the steps of the data analysis process: ask, prepare, process, analyze, share and act.
 
-  ### <ins>Ask</ins>
+  ## <ins>Ask</ins>
 
 Business question: How do annual members and casual riders use Cyclistic bikes differently?
 
@@ -43,23 +43,23 @@ Business task: To design a new marketing strategy to convert casual riders into 
 
 Key Stakeholders: Lily Moreno (director of marketing) and the Cyclistic executive team.
 
-### <ins>Prepare</ins>
+## <ins>Prepare</ins>
 
 Each excel files contains 13 columns containing information such as ride id, rideable type, ride time, location, etc.
 The data was downloaded and backed up on computer.
 
-  ### <ins>Data sources</ins>
+  ## <ins>Data sources</ins>
 
 I used Cyclistic’s historical trip data from December 2022 to December 2023 to analyze and identify trends.
 The data can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html). It has been made available and licenced by Motivate International Inc.
 
-  ### <ins>Tools</ins>
+  ## <ins>Tools</ins>
 
  - Excel - For initial data manipulation (downloaded data was in .csv format) [Download here](https://www.microsoft.com/ro-ro/microsoft-365/excel?market=ro).
  - MySQL - Data cleaning and preparing data for analysis [Download here](https://dev.mysql.com/downloads/).
  - Power BI - Data analysis, visualisation and creating the [Dashboard](#project-overview) [Download here](https://www.microsoft.com/en-us/download/details.aspx?id=58494).
 
-  ### <ins>Process</ins>
+  ## <ins>Process</ins>
 
 After checking the data for each individual month in Microsoft Excel, I discovered that the data was consistent across all files, having the same number of columns and consistent column nomenclature.
 I therefore decided to consolidate all the files into one before cleaning. The large number of rows (over 4 million) in the aggregated file led me to select MySQL.
@@ -382,7 +382,7 @@ UPDATE cyclistic2
 
 After all these steps, the data was ready for analysis so the database was connected to Power BI for the analysis phase.
 
-  ### <ins>Analyze and Act</ins>
+  ## <ins>Analyze and Act</ins>
 
 I wanted to see how members and casual users used the bikes differently.
 I compared how they used the service based on a variety of factors, including usage by weekday and time of day, monthly usage, preferred rideable types by each group, average and daily ride durations and popular stations.
@@ -409,7 +409,7 @@ On average Casual users take longer rides compared to annual users.
 
 ![image](https://github.com/AlexPraporgescu/SQL-Power-BI-Google-Capstone-Project/assets/158141333/6fd8a3fe-d59d-40ac-bf08-8f8df31982f0)
 
-  ### <ins>Results and Findings</ins>
+  ## <ins>Results and Findings</ins>
 
 The analysis results are comprised in the created [Dashboard](#project-overview). Some of the most important insights are:
  - Annual members use the bikes more on weekdays, indicating that they use them
@@ -424,7 +424,7 @@ to September, with August seeing the highest levels of usage. Winter, from
 December to February, saw the least rides in both groups, particularly in January.
  - On average Casual users take longer rides compared to annual users.
 
-  ### <ins>Recommendations</ins>
+  ## <ins>Recommendations</ins>
 
 Based on the analysis, the following actions can be recommended:
  - Weekends should be used for marketing activities aimed at enticing non-members to join
@@ -436,16 +436,16 @@ users.
  - The first step in turning casual users into annual members could be to employ weekend-only
 memberships.
 
-  ### <ins>Limitations</ins>
+  ## <ins>Limitations</ins>
 
  - Data-privacy issues prohibit you from using riders’ personally identifiable information. This means that you won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
  - The dataset comprised only 13 months of data, which may be not thruthful for the entire population that should be considered.
 
-  ### <ins>References</ins>
+  ## <ins>References</ins>
 
 1. [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics?)
 
-  ### <ins>Notes</ins>
+  ## <ins>Notes</ins>
 
 - This project represents my practice work in the field of data analysis. The dataset used may not represent the reality and therefore the findings should be treated in accordance.
 - For more details about me and my work, or if you want to get in touch with me, please access my [LinkedIn profile](https://www.linkedin.com/in/alexpraporgescu/).
